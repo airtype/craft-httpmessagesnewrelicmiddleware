@@ -1,9 +1,5 @@
 {
     "name": "airtype/craft-httpmessagesnewrelicmiddleware",
-    "type": "craft-plugin",
-    "extra": {
-        "installer-name": "httpmessagesnewrelicmiddleware"
-    },
     "authors": [
         {
             "name": "Wes Rice",
@@ -13,9 +9,8 @@
     "autoload": {
         "psr-4": {
             "HttpMessagesNewRelicMiddleware\\": "src/"
-        }
+        },
+        "files": ["config.php"]
     },
-    "require": {
-        "composer/installers": "~1.0"
-    }
+    "require": {}
 }
